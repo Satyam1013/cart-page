@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bundle & Save</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <hr
+        id="hr1"
+        />
+        <h4>Bundle & Save</h4>
+        <hr
+          id="hr2"
+        />
+      </header>
+
+      <main>
+        <section id="sec-1">
+          <table id="content-1">
+            <tr id="first-row">
+              <input type="radio" name="bundle" id="bundle1" value="1pair" />
+              <td>
+                <label id="lable1" for="bundle1">1 Pair</label><br />
+                <p>DKK 195.00</p>
+              </td>
+              <td id="discount">
+                <p>50% OFF</p>
+              </td>
+            </tr>
+          </table>
+        </section>
+
+        <section id="sec-2">
+          <table id="content-1">
+            <tr>
+              <input type="radio" name="bundle" id="bundle2" value="2pair" />
+              <td>
+                <label id="lable1" for="bundle2">2 Pairs</label><br />
+                <p >DKK 345.00</p>
+                <div id="select-head-container">
+                <p id="select-heading1">Size</p>
+                <p id="select-heading2">Colour</p>
+
+                </div>
+                <p>
+                  <div style="display: flex; margin-top: 50px;">
+                    <p id="select-number">#1</p>
+                  <select name="size1" id="select-tag">
+                    <option>S</option>
+                  </select>
+                  <select name="colour1" style="margin-top: -7px;">
+                    <option>Colour</option>
+                  </select>
+                </div>
+                </p>
+                <p>
+                  <div style="display: flex;">
+                    <p id="select-number">#2</p>
+                
+                  <select name="size2" id="select-tag">
+                    <option>S</option>
+                  </select>
+                  <select name="colour2">
+                    <option>Colour</option>
+                  </select>
+                </div>
+                </p>
+              </td>
+              <p id="original-price">
+                DKK 195.00
+              </p>
+              <td>
+                <p id="head">Most Popular</p>
+                <p id="discount2">40% OFF</p>
+              </td>
+            </tr>
+          </table>
+        </section>
+
+        <section id="sec-3">
+          <table id="content-1">
+            <tr id="first-row">
+              <input type="radio" name="bundle" id="bundle1" value="1pair" />
+              <td>
+                <label id="lable1" for="bundle1">3 Pair</label><br />
+                <p>DKK 528.00</p>
+              </td>
+              <td id="discount">
+                <p>60% OFF</p>
+              </td>
+            </tr>
+          </table>
+        </section>
+
+        <div style="display: flex; justify-content: space-between;">
+          <div>
+            <p id="shipping">Free 2 day shipping</p>
+          </div>
+          <div>
+            <p id="total">Total: DKK 360.00</p>
+          </div>
+        </div>
+
+        <button id="add-to-cart">+ Add to Cart</button>
+      </main>
+
+      <footer>
+        <p id="footer">@ Powered by Pumper</p>
+      </footer>
+    </div>
+  </body>
+</html>
