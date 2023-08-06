@@ -10,7 +10,7 @@
   height: 748px;
   font-family: sans-serif;
 }
-#lable1 {
+#lable1, #lable2, #lable3 {
   font-weight: 500;
   position: absolute;
   margin-top: 10px;
@@ -20,9 +20,9 @@
   margin-left: 150px;
   text-decoration: line-through;
   font-size: 11px;
-  margin-top: 40px;
+  margin-top: 42px;
 }
-#discount {
+#discount1, #discount3 {
   width: 100%;
   display: flex;
   margin-left: 70px;
@@ -54,7 +54,7 @@
   margin-top: -20px;
   font-weight: 500;
 }
-#select-number {
+.select-number {
   position: absolute;
   margin-left: -20px;
   margin-top: 0px;
@@ -75,7 +75,7 @@
 }
 #head {
   position: absolute;
-  margin-top: -70px;
+  margin-top: -56px;
   color: #007f61;
   margin-left: 50px;
   line-height: 15.31px;
@@ -110,7 +110,11 @@
   color: #007f61;
   font-size: 14px;
 }
-#select-tag {
+#empty {
+  /* position: absolute; */
+  padding-left: 4px;
+}
+#select-tag1, #select-tag2 {
   margin-top: -7px;
   padding: 5px;
   margin-right: 10px;
@@ -119,9 +123,13 @@
 #discount2 {
   position: absolute;
   margin-left: 75px;
-  margin-top: -50px;
+  margin-top: -38px;
 }
-#bundle1 {
+/* #bundle {
+position: absolute;
+margin-left: 14px;
+} */
+#bundle3 {
   position: relative;
   margin-left: 15px;
 }
@@ -129,8 +137,9 @@
   position: relative;
   margin-top: -90px;
   margin-left: 15px;
+  
 }
-#content-1 {
+#content-1, #content-2, #content-3 {
   /* border: solid 1px; */
   width: 100%;
   margin: 10px;
@@ -171,7 +180,7 @@ h4 {
 }
 #hr2 {
   position: absolute;
-  margin-top: -30px;
+  margin-top: -34px;
   margin-left: 240px;
   width: 6.5%;
   transform: translateY(-20%);
